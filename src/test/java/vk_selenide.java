@@ -59,7 +59,7 @@ public class vk_selenide {
 
 
              Document doc1 = Jsoup.connect(Path).get();
-
+////не работает правильно...
              Elements links3 = doc1.getElementsByClass("labeled name");
              int yyy = 0;
              for (Element link3 : links3) {
